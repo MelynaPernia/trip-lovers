@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TRIP LOVERS</title>
-  
   <!-- Links CSS Styles-->
-  <link rel="stylesheet" href="css/main.css">
   <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <link rel="stylesheet" href="css/main.css">
   <script>
     // Initialize Firebase
     var config = {
@@ -28,62 +27,13 @@
 
 </head>
 
-<body>
+<body class="bg-info">
+  <!-- container of the logo -->
+  <div class="container-fluid vh-100 container-flex">
+    <img src="./assets/images/logo-blanco-32.png" class="img-responsive vh-10 logo" alt="logo">
+    <h1 class="title">Trip Lovers</h1>
+  </div>
 
-  <!--Splash Section-->
-  <header class="masthead text-white text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Tu próximo viaje a Perú empieza aquí</h1>
-          <form>
-            <input type="text" class="form-control form-control-lg " placeholder="Buscar...">
-          </form>
-        </div>
-      </div>
-  </header>
-  <section class="container text-center">
-    <br>
-    <div class="row col-xl-11 mx-auto">
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-map"></i>
-        </span>
-        <h6>
-          <strong>Regiones & Ciudades</strong>
-        </h6>
-        <p class="text-faded mb-0">Descrubre las ciudades del Perú!</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-pencil"></i>
-        </span>
-        <h6>
-          <strong>Hoteles & Restaurants</strong>
-        </h6>
-        <p class="text-faded mb-0">Vive la mejor experiencia</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-plane"></i>
-        </span>
-        <h6>
-          <strong>Transportes</strong>
-        </h6>
-        <p class="text-faded mb-0">Todos los horarios y precios</p>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-directions"></i>
-        </span>
-        <h6>
-          <strong>Atractivos</strong>
-        </h6>
-        <p class="text-faded mb-0">Muchos lugares y cosas por hacer</p>
-      </div>
-    </div>
-    </div>
-  </section>
 
   <!-- Links JavaScript-->
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
